@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="cal.css" type="text/css" rel="stylesheet"/>
+		<script src="cal.js" type="text/javascript"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>简单计算器</title>
+	</head>
+	<body>
+		<h1>简单计算器</h1>
+		<div class="d">
+			<table class="t">
+		  		<tr>
+		    		<td colspan = 4><input type="text" name="result" id="result" style="height:30px; width:408px;"></td>
+  				</tr>
+  				<tr>
+	    			<td><input type="button" value="7" style="height:60px; width:100px;" onclick="getNum(7)"></td>
+    				<td><input type="button" value="8" style="height:60px; width:100px;" onclick="getNum(8)"></td>
+    				<td><input type="button" value="9" style="height:60px; width:100px;" onclick="getNum(9)"></td>
+    				<td><input type="button" value="/" style="height:60px; width:100px;" onclick="getNum('/')"></td>
+  				</tr>
+   				<tr>
+		    		<td><input type="button" value="4" style="height:60px; width:100px;" onclick="getNum(4)"></td>
+    				<td><input type="button" value="5" style="height:60px; width:100px;" onclick="getNum(5)"></td>
+    				<td><input type="button" value="6" style="height:60px; width:100px;" onclick="getNum(6)"></td>
+    				<td><input type="button" value="*" style="height:60px; width:100px;" onclick="getNum('*')"></td>
+  				</tr>
+   				<tr>
+		    		<td><input type="button" value="1" style="height:60px; width:100px;" onclick="getNum(1)"></td>
+    				<td><input type="button" value="2" style="height:60px; width:100px;" onclick="getNum(2)"></td>
+    				<td><input type="button" value="3" style="height:60px; width:100px;" onclick="getNum(3)"></td>
+    				<td><input type="button" value="-" style="height:60px; width:100px;" onclick="getNum('-')"></td>
+  				</tr>
+  				<tr>
+		    		<td><input type="button" value="0" style="height:60px; width:100px;" onclick="getNum(0)"></td>
+    				<td><input type="button" value="." style="height:60px; width:100px;" onclick="getNum('.')"></td>
+    				<td><input type="button" value="←" style="height:60px; width:100px;" onclick="Return()"></td>
+    				<td><input type="button" value="+" style="height:60px; width:100px;" onclick="getNum('+')"></td>
+  				</tr>
+   				<tr>
+		    		<td><input type="button" value="(" style="height:60px; width:100px;" onclick="getNum('(')"></td>
+    				<td><input type="button" value=")" style="height:60px; width:100px;" onclick="getNum(')')"></td>
+    				<td><input type="button" value="CE" style="height:60px; width:100px;" onclick="Clear()"></td>
+    				<td><input type="button" value="=" style="height:60px; width:100px;" onclick="getResult()"></td>
+  				</tr>
+			</table>
+		</div>
+	</body>
+</html>

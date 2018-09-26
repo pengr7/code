@@ -1,0 +1,14 @@
+h1 {
+	text-align: center;
+	color: green;
+}
+.d {
+	border: 5px solid gray;
+	position: relative;
+	left: 450px;
+	height: 381px;
+	width: 439px;
+}
+.t {
+	margin: 10px;
+}

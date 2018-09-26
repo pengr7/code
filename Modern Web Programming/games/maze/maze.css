@@ -1,0 +1,133 @@
+h1, h2 {
+	font-family: monospace;
+	text-align: center;
+	font-size: 23pt;
+}
+.wall, .wall1, .wall2, .wall3, .wall4, .wall5, .wall6, .wall7, .wall8, .wall9 {
+	margin: 0px;
+	padding: 0px;
+	background: #F0F0F0;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+}
+.wall {
+	left: 600px;
+	top: 560px;
+	width: 100px;
+	height: 25px;
+}
+.wall1 {
+	left: 350px;
+	top: 200px;
+	width: 200px;
+	height: 50px;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+}
+.wall2 {
+	left: 550px;
+	top: 200px;
+	width: 200px;
+	height: 50px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+.wall3 {
+	left: 750px;
+	top: 200px;
+	width: 200px;
+	height: 50px;
+	border-left-width: 0px;
+	border-bottom-width: 0px;
+}
+.wall4 {
+	left: 350px;
+	top: 250px;
+	width: 200px;
+	height: 150px;
+	border-top-width: 0px;
+}
+.wall5 {
+	left: 750px;
+	top: 250px;
+	width: 200px;
+	height: 150px;
+	border-top-width: 0px;
+}
+.wall6 {
+	left: 350px;
+	top: 450px;
+	width: 250px;
+	height: 50px;
+	border-right-width: 0px;
+}
+.wall7 {
+	left: 700px;
+	top: 450px;
+	width: 250px;
+	height: 50px;
+	border-left-width: 0px;
+}
+.wall8 {
+	left: 600px;
+	top: 300px;
+	width: 100px;
+	height: 150px;
+	border-bottom-width: 0px;
+}
+.wall9 {
+	left: 600px;
+	top: 450px;
+	width: 100px;
+	height: 51px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+}
+.start, .end {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	width: 40px;
+	height: 40px;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	font-weight: bolder;
+	line-height: 0px;
+	font-size: 25px;
+}
+.start {
+	left: 350px;
+	top: 405px;
+	width: 40px;
+	height: 40px;
+	background-color: #55FF55;
+}
+.end {
+	left: 910px;
+	top: 405px;
+	width: 40px;
+	height: 40px;
+	background-color: #7777FF;
+}
+.cheat {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 950px;
+	top: 400px;
+	width: 5px;
+	height: 50px;
+}
+.explain {
+	position: absolute;
+	top: 500px;
+	left: 333px;
+}
+.goodluck {
+	position: absolute;
+	left: 333px;
+	top: 600px;
+}
