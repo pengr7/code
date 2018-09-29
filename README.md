@@ -1,2 +1,2 @@
-# Simple-Programs
-Simple Programs
+# CODE
+Enjoy~
